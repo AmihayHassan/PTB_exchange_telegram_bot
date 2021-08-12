@@ -4,7 +4,8 @@ from telegram.ext import *
 import consts
 import logging
 import json
-from messages_parser import reply
+# import messages_parser
+import sandbox
 
 
 def start(update, context):
@@ -13,7 +14,7 @@ def start(update, context):
 
 def respond(update, context):
     user_input = str(update.message.text).lower()
-    response = reply(user_input)
+    response = sandbox.google_reply(user_input)
     if response is not None and response != 1:
         update.message.reply_text(response)
 
