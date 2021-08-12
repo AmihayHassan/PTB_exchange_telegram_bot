@@ -47,3 +47,6 @@ def main():
 
 if __name__ == 'main':
     main()
+
+    
+# thanks to t.me/yehuda100 for his help in deploying the bot properly to pythonanywhere.com
