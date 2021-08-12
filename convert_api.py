@@ -4,16 +4,16 @@ from consts import api_key
 coins_dict = {
     # region ILS/NIS
     "שקל": "ILS",
-    "שקל חדש": "ILS",
-    "שקלים": "ILS",
-    "שקלים חדשים": "ILS",
+    # "שקל חדש": "ILS",
+    # "שקלים": "ILS",
+    # "שקלים חדשים": "ILS",
     "שח": "ILS",
     'ש"ח': "ILS",
     # endregion
 
     # region USD
     "דולר": "USD",
-    "דולרים": "USD",
+    # "דולרים": "USD",
     "ירוקים": "USD",
     # endregion
 
